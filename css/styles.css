@@ -1,25 +1,36 @@
-#worldnavi{
-    background: lightblue;
+html, body {
+    padding: 0;
+    margin: 0;
 }
 
-#worldnavi ul{
+.background { 
+    background: no-repeat center center url(../img/surf.jpg);
+    height: 600px;
+}
+
+.worldnavi {
+    background: lightblue;
+    padding: 1px;
+}
+
+.worldnavi ul {
     overflow: hidden;
 
 }
 
-#worldnavi li{
+.worldnavi li {
     float: left;
     width: 156px;
     border-right: #fff 1px solid;
 }
 
-#worldnavi li:first-child{
+.worldnavi li:first-child {
     width: 153px;
     border-left: #fff 1px solid;
 }
 
 
-#worldnavi a{
+.worldnavi a {
     display: block;
     padding: 10px 0;
     text-align: center;
@@ -27,8 +38,13 @@
     color: #fff;
 }
 
-#worldnavi a:hover{
+.worldnavi a:hover{
     background: #cce739;
+}
+
+.inner{
+    list-style: none;
+    margin: 0px;
 }
 
 .picture{
