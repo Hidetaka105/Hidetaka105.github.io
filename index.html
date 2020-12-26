@@ -2,31 +2,54 @@
 <html lang="ja">
 <head>
     <meta charset="uff-8">
-    <title>氷文鈷山の変人日記</title>
+    <title>氷文鈷山の旅行記録</title>
     <link rel="icon" href="img/ラズベリー.jpg">
     <meta name="description" content="氷文鈷山のポートフォリオサイトです">
+    <link rel="stylesheet" href="css/styles.css">
+    
 </head>
+
 <body>
     <header>
-        <img src="img/ドイツの何とか.png" width="150" height="120" alt="鈷山のアイコンです">
-        <h1>氷文鈷山</h1>
-        <p>天才かもしれない</p>
-        <p>いや、変態かもしれない</p>
+        <div style="background: url(img/surf.jpg); height: 600px;">
+            <h1>氷文鈷山の旅行記録</h1>
+            <p class="center">管理人が今まで旅行してきた国や地域を、写真と共に紹介していくサイト</p>
+        </div>
+       
+        <nav id="worldnavi">
+            <ul class="inner">
+                <li><a href="#">ホーム</a> </li>
+                <li><a href="#">ヨーロッパ</a> </li>
+                <li><a href="#">アジア</a> </li>
+                <li><a href="#">北アメリカ</a> </li>
+                <li><a href="#">日本国内</a> </li>
+            </ul>
+        </nav>
+        
     </header>
     <!-- 行の移動はオプション矢印キー -->
     <!-- 　誰も見ないコメント。自分だけ見れると思ったけど、見られるんだ・・・コマンドスラッシュでコメントオンオフできるよ -->
     
-    <h2>Works</h2>
-    <img src="img/ラズベリー.jpg" width="150" height="200" alt"ラズベリーの写真">
-    <h3>スーパーに売っていたラズベリーです</h3>
-    <p>美味しかった。電車内で食べた。一回目</p>
-    <img src="img/ラズベリー.jpg" width="150" height="200" alt"ラズベリーの写真">
-    <h3>スーパーに売っていたラズベリーです</h3>
-    <p>Nord West Zentrumで買ったんだ。二回目オルトシフト矢印で複製</p>
-    
-    <img src="img/ラズベリー.jpg" width="150" height="200" alt"ラズベリーの写真">
-    <h3>スーパーに売っていたラズベリーです</h3>
-    <p>美味しかった。電車内で食べた。三回目だよ。</p>
+    <section>
+        <h1>ドイツ編</h1>
+        <section　id="razube" class="picture">
+            <img src="img/ラズベリー.jpg" width="150px" height="200px" alt"ラズベリーの写真">
+            <h1>スーパーに売っていたラズベリーです</h1>
+            <p class="center">美味しかった。電車内で食べた。一回目</p>
+        </section>
+
+        <section id="schnitzel" class="picture">
+            <img src="img/ラズベリー.jpg" width="150px" height="200px" alt"ラズベリーの写真">
+            <h1>スーパーに売っていたラズベリーです</h1>
+            <p class="center">Nord West Zentrumで買ったんだ。二回目オルトシフト矢印で複製</p>
+        </section>
+
+        <section id="nikupan" class="picture">
+            <img src="img/ラズベリー.jpg" width="150px" height="200px" alt"ラズベリーの写真">
+            <h1>スーパーに売っていたラズベリーです</h1>
+            <p class="center">美味しかった。電車内で食べた。三回目だよ。</p>
+        </section>
+    </section>
     <footer>
         <p>(c) hifumikozan.com</p>
     </footer>
