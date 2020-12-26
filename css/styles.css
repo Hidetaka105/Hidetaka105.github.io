@@ -6,6 +6,7 @@ html, body {
 .background { 
     background: no-repeat center center url(../img/surf.jpg);
     height: 600px;
+    padding: 1px;
 }
 
 .worldnavi {
