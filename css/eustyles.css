@@ -50,10 +50,6 @@ html, body {
     margin: 0px;
 }
 
-.mokuji{
-    text-align: center;
-}
-
 body{
     /* color: blue; コマンドスラッシュでコメントになる*/
     color: black;
@@ -65,6 +61,8 @@ body{
 .center {
    text-align:center;
 }
+
+
 
 .quote {
     text-align:center;
